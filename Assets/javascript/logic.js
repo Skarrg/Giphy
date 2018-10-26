@@ -7,7 +7,7 @@ $(document).ready(function () {
         var emotion = $(this).attr("data-name");
         var seekrit = "2pJIZ9daipQ499TILv5WfCwuxuPUZq2W"
         // fix this
-        var queryURL = "http://api.giphy.com/v1/gifs/search?api_key=" + seekrit + "&q=" + emotion + "&limit=10";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=" + seekrit + "&q=" + emotion + "&limit=10";
 
         // also fix this
         $.ajax({
