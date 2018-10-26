@@ -1,0 +1,11 @@
+*{
+    text-align: center;
+}
+
+body {
+    background-image: url(../images/bananas.png);
+    background-repeat: repeat;
+}
+.btn {
+    margin-left: 5px;
+}
