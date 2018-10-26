@@ -8,4 +8,29 @@ body {
 }
 .btn {
     margin-left: 5px;
+    margin-bottom: 10px;
+}
+.anger {
+    background-color: #aa001e;
+}
+
+.sadness{
+    background-color: #c7bbc9;
+}
+
+.happiness{
+    background-color: #ff7d00;
+}
+
+.fear{
+    background-color: black;
+    color: white;
+}
+
+.disgust{
+    background-color: greenyellow;
+}
+
+.surprise{
+    background-color: orange;
 }
