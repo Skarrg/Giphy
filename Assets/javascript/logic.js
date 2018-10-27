@@ -43,6 +43,13 @@ $(document).ready(function () {
         }
     }
 
+    $("#addemotion").on("click", function(event){
+        event.preventDefault();
+        var newEmotion = $("#emotioninput").val().trim();
+        topics.push(newEmotion);
+        buttonsCreate();
+    })
+
     $(document).on("click", ".emotion", displayTheGifs);
     buttonsCreate();
 });
